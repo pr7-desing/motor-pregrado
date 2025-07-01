@@ -1,0 +1,5 @@
+conda env create -f "E:\Motor Pregrado\INSTALADORES\environment.yml"
+
+call "E:\Anaconda3\Scripts\activate.bat" MRE-SIPAN & cd "E:\Motor Pregrado\SCRIPTS\" & python Script_ejecucion_Motor.py
+
+call "E:\Anaconda3\Scripts\activate.bat" MRE-SIPAN & cd "E:\Motor Pregrado\SCRIPTS\" & python Script_reproceso_Motor.py
